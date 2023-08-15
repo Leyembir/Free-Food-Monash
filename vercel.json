@@ -1,5 +1,6 @@
 {
     "buildCommand": "npx expo export:web",
+    "outputDirectory": ".",
     "devCommand": "expo start --web",
     "cleanUrls": true,
     "framework": null,
