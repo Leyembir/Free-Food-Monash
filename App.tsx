@@ -91,7 +91,7 @@ const App = () => {
   useEffect(() => {
     const fetchScheduleData = async () => {
       try {
-        const response = await axios.get('http://13.239.40.234/json-object/');
+        const response = await axios.get('https://api.monashfreefood.com/json-object/');
         setScheduleData(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);
