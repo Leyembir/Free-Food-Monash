@@ -114,7 +114,6 @@ const App = () => {
       </View>
       <View style={{ alignItems: 'center', paddingVertical: 1 }}>
         <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'white', fontFamily: 'Helvetica' }}>
-          Week 3
         </Text>
       </View>
       <ScrollView contentContainerStyle={{ paddingVertical: 16 }}>
