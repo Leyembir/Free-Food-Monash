@@ -1,30 +1,13 @@
-<<<<<<< HEAD
-// AppStyles.js
-import { StyleSheet } from 'react-native';
-=======
 import { StyleSheet, Dimensions } from 'react-native';
 
 const { width } = Dimensions.get('window');
 const cardWidth = width * 0.8; // 80% of screen width
->>>>>>> master
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#FF6900',
   },
-<<<<<<< HEAD
-  dayText: {
-    fontSize: 24,
-    fontWeight: 'bold',
-  },
-  card: {
-    marginBottom: 8,
-    backgroundColor: 'white',
-  },
-  eventName: {
-    fontWeight: 'bold',
-=======
   headerText: {
     fontSize: 28,
     fontWeight: 'bold',
@@ -73,18 +56,14 @@ const styles = StyleSheet.create({
   eventName: {
     fontWeight: 'bold',
     marginTop: 4,
->>>>>>> master
   },
   locationLink: {
     color: 'blue',
     textDecorationLine: 'underline',
-<<<<<<< HEAD
-=======
     marginTop: 4,
   },
   footerText: {
     color: 'white',
->>>>>>> master
   },
 });
 
